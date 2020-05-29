@@ -10,7 +10,7 @@ namespace Microsoft.BotBuilderSamples.Bots
 {
     public class GraphClient
     {
-        private string clientId = "YOU PUT YOUR TENANT ID IN HERE";
+        private string clientId = "YOU PUT YOUR CLIENT ID IN HERE";
           
         private GraphServiceClient theGraphClient;
 
