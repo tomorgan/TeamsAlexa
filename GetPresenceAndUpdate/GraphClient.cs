@@ -21,7 +21,7 @@ namespace Microsoft.BotBuilderSamples.Bots
         {
             IPublicClientApplication publicClientApplication = PublicClientApplicationBuilder
              .Create(clientId)             
-             .WithRedirectUri("https://TENANT ID OR SOMETHING ELSE YOU SET AS REDIRECT URI IN YOUR APP")
+             .WithRedirectUri("https://CLIENT ID OR SOMETHING ELSE YOU SET AS REDIRECT URI IN YOUR APP")
              .Build();
 
             InteractiveAuthenticationProvider authProvider = new InteractiveAuthenticationProvider(publicClientApplication);            
